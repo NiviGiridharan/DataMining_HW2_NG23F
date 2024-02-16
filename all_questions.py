@@ -210,18 +210,18 @@ def question5():
     # Read appropriate section of book chapter 3
 
     # string: one of 'Model 1' or 'Model 2'
-    explain["a"] = ""
-    explain["a explain"] = ""
+    explain["a"] = "Model 2"
+    explain["a explain"] = "Model 2 has higher test accuracy than Model 1 (even if the training accuracy of Model 1 is higher). It is Model 2 which shows less less difference between training and testing accuracy. This type of model is preferred for making predictions on unseen data."
 
     # string: one of 'Model 1' or 'Model 2'
-    explain["b"] = ""
-    explain["b explain"] = ""
+    explain["b"] = "Model 2"
+    explain["b explain"] = "Even though Model 1 has higher accuracy on combined dataset, it is better to choose Model 2 because of its stable performance on new, unseen data. If the combined dataset's accuracy alone is taken, Model 1 would seem like the better choice."
 
-    explain["c similarity"] = ""
-    explain["c similarity explain"] = ""
+    explain["c similarity"] = "MDL and Pessimistic penalize complexity to avoid overfitting"
+    explain["c similarity explain"] = "Both techniques prevent overfitting by selecting models that balance accuracy with simplicity, penalizing over-complex models."
 
-    explain["c difference"] = ""
-    explain["c difference explain"] = ""
+    explain["c difference"] = "The appraoch to incorporate model complexity"
+    explain["c difference explain"] = "MDL uses a data compression framework, whereas pessimistic error estimation modifies the error rate according to the tree size and correct classifications."
 
     return explain
 
