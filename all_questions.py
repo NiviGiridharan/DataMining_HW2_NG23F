@@ -210,17 +210,17 @@ def question5():
 
     # string: one of 'Model 1' or 'Model 2'
     explain["a"] = "Model 2"
-    explain["a explain"] = "Model 2 has higher test accuracy than Model 1 (even if the training accuracy of Model 1 is higher). It is Model 2 which shows less less difference between training and testing accuracy. This type of model is preferred for making predictions on unseen data."
+    explain["a explain"] = "Even though Model 1's training accuracy is better, Model 2 has a higher test accuracy than Model 1. The Model 2 exhibits the least amount of variation in accuracy between training and testing. The best kind of model to use when predicting unknown data is this one."
 
     # string: one of 'Model 1' or 'Model 2'
     explain["b"] = "Model 2"
-    explain["b explain"] = "Even though Model 1 has higher accuracy on combined dataset, it is better to choose Model 2 because of its stable performance on new, unseen data. If the combined dataset's accuracy alone is taken, Model 1 would seem like the better choice."
+    explain["b explain"] = "Selecting Model 2 is preferable due to its consistent performance on newly discovered data, despite the fact that Model 1 has a higher accuracy on the combined dataset. Model 1 would appear to be the superior option if the accuracy of the combined dataset is the only consideration."
 
     explain["c similarity"] = "MDL and Pessimistic penalize complexity to avoid overfitting"
-    explain["c similarity explain"] = "Both techniques prevent overfitting by selecting models that balance accuracy with simplicity, penalizing over-complex models."
+    explain["c similarity explain"] = "Both approaches penalize too complex models and choose models that strike a compromise between simplicity and accuracy in order to prevent overfitting."
 
     explain["c difference"] = "The appraoch to incorporate model complexity"
-    explain["c difference explain"] = "MDL uses a data compression framework, whereas pessimistic error estimation modifies the error rate according to the tree size and correct classifications."
+    explain["c difference explain"] = "Whereas pessimistic error estimation adjusts the error rate based on the size of the tree and accurate classifications, MDL employs a framework for data compression."
 
     return explain
 
