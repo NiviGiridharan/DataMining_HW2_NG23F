@@ -157,46 +157,45 @@ def question4():
     #  'quantitative', 'interval', 'ratio'
     # If you have a choice between 'binary' and 'discrete', choose 'binary'
 
-    answer["a"] = []
-
+    answer["a"] = ["Binary", "Qualitative", "Nominal"]
     # Explain if there is more than one interpretation. Repeat for the other questions. At least five words that form a sentence.
-    answer["a: explain"] = ""
+    answer["a: explain"] = "Time expressed as AM or PM is a nominal qualitative feature because it has two separate categories and neither has an intrinsic order or numerical value."
 
-    answer["b"] = []
-    answer["b: explain"] = ""
+    answer["b"] = ["Continuous", "Quantitative", "Ratio"]
+    answer["b: explain"] = "Since brightness has a true zero (total darkness) and can fluctuate constantly, it is a ratio."
 
-    answer["c"] = []
-    answer["c: explain"] = ""
+    answer["c"] = ["Discrete", "Quantitative", "Ordinal"]
+    answer["c: explain"] = "Because people's perceptions of brightness may not be precisely quantified, they are qualitative in nature. Conversely, it can also be seen as ordinal since assessments can be ranked according to brightness."
 
-    answer["d"] = []
-    answer["d: explain"] = ""
+    answer["d"] = ["Continuous", "Quantitative", "Ratio"]
+    answer["d: explain"] = "Angles are quantitative attributes that are ratio-based since they are measured in degrees between 0 and 360, which depicts a continuous scale with a true zero point and equal intervals between measurements."
 
-    answer["e"] = []
-    answer["e: explain"] = ""
+    answer["e"] = ["Binary", "Qualitative", "Ordinal"]
+    answer["e: explain"] = "Medals awarded at the Olympics have a natural ordering (Bronze < Silver < Gold), making it an ordinal qualitative attribute. However, it is also binary since each medal can be considered as either won or not won."
 
-    answer["f"] = []
-    answer["f: explain"] = ""
+    answer["f"] = ["Continuous", "Quantitative", "Interval"]
+    answer["f: explain"] = "Height above sea level can theoretically take on any real value within a range, but it lacks a true zero point (sea level is an arbitrary reference point) and the intervals between measurements are uniform but arbitrary, making it an interval quantitative attribute."
 
-    answer["g"] = []
-    answer["g: explain"] = ""
+    answer["g"] = ["Discrete", "Quantitative", "Ratio"]
+    answer["g: explain"] = "The number of patients is countable with a true zero, making it ratio data."
 
-    answer["h"] = []
-    answer["h: explain"] = ""
+    answer["h"] = ["Binary", "Qualitative", "Nominal"]
+    answer["h: explain"] = "Books' ISBN numbers are nominal qualitative attributes that are essentially just a series of digits, letters, and hyphens that serve as unique identifiers without any numerical value or intrinsic order. Furthermore, every book is binary because it may be classified as having a legitimate ISBN or not."
 
-    answer["i"] = []
-    answer["i: explain"] = ""
+    answer["i"] = ["Binary", "Qualitative", "Ordinal"]
+    answer["i: explain"] = "The ability to pass light can be categorized into three distinct levels: opaque, translucent, and transparent, with a natural ordering (opaque < translucent < transparent), making it an ordinal qualitative attribute. However, it can also be considered binary since each material can be classified as either allowing light to pass through or not."
 
-    answer["j"] = []
-    answer["j: explain"] = ""
+    answer["j"] = ["Discrete", "Qualitative", "Ordinal"]
+    answer["j: explain"] = "Military rank consists of a finite set of distinct levels with a clear ordering, making it a discrete ordinal qualitative attribute."
 
-    answer["k"] = []
-    answer["k: explain"] = ""
+    answer["k"] = ["Continuous", "Quantitative", "Ratio"]
+    answer["k: explain"] = "Distance from the center of campus can take on any real value within a range, it has a true zero point and equal intervals between measurements, making it a continuous quantitative attribute with a ratio scale."
 
-    answer["l"] = []
-    answer["l: explain"] = ""
+    answer["l"] = ["Continuous", "Quantitative", "Ratio"]
+    answer["l: explain"] = "Density varies continuously, has a true zero, and measurements are directly comparable, making it ratio."
 
-    answer["m"] = []
-    answer["m: explain"] = ""
+    answer["m"] = ["Discrete", "Qualitative", "Nominal"]
+    answer["m: explain"] = "Coat check numbers are unique identifiers without quantitative value or order, representing nominal data."
 
     return answer
 
